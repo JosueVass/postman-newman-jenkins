@@ -7,7 +7,7 @@
   },
   "scripts": {
     "api-test-production": "newman run tests/Jsonplaceholder.com.postman_collection.json",
-    "api-test-production2": "newman run tests/Jsonplaceholder.com.postman_collection.json"
+    "api-report": "newman run tests/Jsonplaceholder.com.postman_collection.json -r htmlextra --reporter-htmlextra-export ./Reporte/ReportePrueba.html"
   },
   "author": "Josue Becerril",
   "dependencies": {
